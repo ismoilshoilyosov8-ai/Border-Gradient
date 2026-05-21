@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="range-block">
+        <p>
+          <input
+            class="all"
+            type="range"
+            min="0"
+            max="200"
+            value="0"
+            step="1"
+          />
+          All
+        </p>
+        <p>
+          <input class="tl" type="range" min="0" max="200" value="0" step="1" />
+          Top Left
+        </p>
+        <p>
+          <input class="tr" type="range" min="0" max="200" value="0" step="1" />
+          Top Rigth
+        </p>
+        <p>
+          <input class="br" type="range" min="0" max="200" value="0" step="1" />
+          Bottom Rigth
+        </p>
+        <p>
+          <input class="bl" type="range" min="0" max="200" value="0" step="1" />
+          Bottom Left
+        </p>
+        <p>
+          <input class="bc" type="color" name="color" id="color" />
+          Background Color
+        </p>
+      </div>
+      <div class="block"></div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
